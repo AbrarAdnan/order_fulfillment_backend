@@ -18,11 +18,11 @@ This project simulates a distributed, production-grade backend system for handli
 
 ## 🧱 Tech Stack
 
-- Django
-- Django REST Framework
-- Celery
-- Redis
-- Python 3.11+
+- **Django**: Provides a robust ORM and admin for rapid backend development.
+- **Django REST Framework (DRF)**: Enables fast, flexible API development with browsable interfaces and easy serialization.
+- **Celery**: Manages asynchronous tasks like order lifecycle transitions and stale detection, decoupling business logic from the request cycle.
+- **Redis**: Used as a high-speed message broker for Celery tasks.
+- **Python 3.11+**: Offers improved performance and async capabilities.
 
 ---
 
